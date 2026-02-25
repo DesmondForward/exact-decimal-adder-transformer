@@ -1,3 +1,10 @@
+<p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="Docs/assets/logo-dark.png">
+        <img src="Docs/assets/logo-light.png" alt="Exact Decimal Adder Transformer" width="500">
+    </picture>
+</p>
+
 # Tiny Transformer Decimal Addition (Parameter Halving)
 
 This repository contains a PyTorch implementation of a 10-digit exact decimal adder. The project addresses the task of producing the reversed 11-digit decimal representation of $a+b$ for two zero-padded 10-digit addends $(a,b \in [0, 10^{10}-1])$, under an extreme parameter-minimization constraint relative to a 343-parameter reference model.
